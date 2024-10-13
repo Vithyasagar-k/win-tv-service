@@ -246,44 +246,44 @@ export default function Home() {
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
               <h2 className="py-4 text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">We are specialized in all TV brands</h2>
               <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-4">
-                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-gray-100 rounded-2xl'>
+                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-gray-100 rounded-2xl h-40'>
                   <img src="/tv-brand/sony-logo.svg" width={100} height={100} alt="TV Icon" />
                 </div>
-                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-green-100 rounded-2xl'>
+                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-green-100 rounded-2xl h-40'>
                   <img src="/tv-brand/acer-logo.svg" width={100} height={100} alt="TV Icon" />
                 </div>
-                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-gray-100 rounded-2xl'>
+                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-gray-100 rounded-2xl h-40'>
                   <img src="/tv-brand/oneplus-logo.svg" width={100} height={100} alt="TV Icon" />
                 </div>
-                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-green-100 rounded-2xl'>
+                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-green-100 rounded-2xl h-40'>
                   <img src="/tv-brand/philips-logo.svg" width={100} height={100} alt="TV Icon" />
                 </div>
               </div>
               <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-4">
-                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-green-100 rounded-2xl'>
+                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-green-100 rounded-2xl h-40'>
                   <img src="/tv-brand/toshiba-logo.svg" width={100} height={100} alt="TV Icon" />
                 </div>
-                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-gray-100 rounded-2xl'>
+                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-gray-100 rounded-2xl h-40'>
                   <img src="/tv-brand/lg-logo.svg" width={100} height={100} alt="TV Icon" />
                 </div>
-                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-green-100 rounded-2xl'>
+                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-green-100 rounded-2xl h-40'>
                   <img src="/tv-brand/realme-logo.svg" width={100} height={100} alt="TV Icon" />
                 </div>
-                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-gray-100 rounded-2xl'>
+                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-gray-100 rounded-2xl h-40'>
                   <img src="/tv-brand/tcl-logo.svg" width={100} height={100} alt="TV Icon" />
                 </div>
               </div>
               <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-4">
-                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-gray-100 rounded-2xl'>
+                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-gray-100 rounded-2xl h-40'>
                   <img src="/tv-brand/xiaomi-logo.svg" width={100} height={100} alt="TV Icon" />
                 </div>
-                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-green-100 rounded-2xl'>
+                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-green-100 rounded-2xl h-40'>
                   <img src="/tv-brand/haier-logo.svg" width={100} height={100} alt="TV Icon" />
                 </div>
-                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-gray-100 rounded-2xl'>
+                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-gray-100 rounded-2xl h-40'>
                   <img src="/tv-brand/nokia-logo.svg" width={100} height={100} alt="TV Icon" />
                 </div>
-                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-green-100 rounded-2xl'>
+                <div className='flex flex-col justify-center items-center py-6 px-6 transition-transform duration-300 ease-in-out hover:scale-110 bg-green-100 rounded-2xl h-40'>
                   <img src="/tv-brand/panasonic-logo.svg" width={100} height={100} alt="TV Icon" />
                 </div>
               </div>
