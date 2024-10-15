@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="{{ asset('/icon/tv-icon.svg') }}" type="image/x-icon" />
+    <link rel="icon" href="{{ asset('/image/win-favicon.png') }}" class="w-40" type="image/x-icon" />
     <meta property="og:title" content="TV Service in Chennai" />
     <meta property="og:description" content="Best TV repair services in Chennai." />
     <link rel="canonical" href="{{ url()->current() }}" />

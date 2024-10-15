@@ -1,30 +1,33 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Link } from '@inertiajs/react'
 
 export default function Header() {
 
     return (
-        <Disclosure as="nav" className="bg-[rgb(2,0,36)] text-white shadow sticky top-0 z-50">
+        <Disclosure as="nav" className="bg-white text-[#213262] shadow-xl sticky top-0 z-50">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-20 justify-between">
                     <div className="flex">
                         <div className="flex flex-shrink-0 items-center">
-                            <img
-                                alt="Your Company"
-                                src="/image/logo.png"
-                                className="w-32"
-                            />
+                            <Link href='/'>
+                                <img
+                                    alt="Your Company"
+                                    src="/image/win-logo.jpg"
+                                    width={200}
+                                />
+                            </Link>
                         </div>
                     </div>
-                    <div className="hidden sm:ml-6 sm:flex sm:items-center">
-                        <p className="flex items-center text-lg font-semibold">
-                            <img src="/icon/phone.svg" className="w-8 mr-1" alt="Phone icon" /> +91 7010737409
-                        </p>
-                    </div>
-                    <div className="hidden sm:ml-6 sm:flex sm:items-center">
-                        <p className="flex items-center text-lg font-semibold">
-                            <img src="/icon/email.svg" className="w-5 mr-3" alt="Email icon" /> tayyappan986@gmil.com
-                        </p>
+                    <div className="hidden flex-col justify-start sm:ml-6 sm:flex mt-3">
+                        <div className="flex items-center">
+                            <img src="/icon/phone-icon-black.svg" className="h-6 mr-2" alt="Phone icon" />
+                            <p className="text-xl font-black">+91 7010737409</p>
+                        </div>
+                        <div className="flex items-center">
+                            <img src="/icon/mail-icon-black.svg" className="w-5 mr-2" alt="Email icon" />
+                            <p className="text-xl font-black">tayyappan986@gmail.com</p>
+                        </div>
                     </div>
                     <div className="-mr-2 flex items-center sm:hidden">
                         {/* Mobile menu button */}
@@ -40,12 +43,14 @@ export default function Header() {
 
             <DisclosurePanel className="sm:hidden">
                 <div className="space-y-1 pb-3 pt-2">
-                    <p className="flex items-center text-lg font-semibold">
-                        <img src="/icon/phone.svg" className="w-8 mr-1" alt="Phone icon" /> +91 7010737409
-                    </p>
-                    <p className="flex items-center text-lg font-semibold">
-                        <img src="/icon/email.svg" className="w-5 mr-3" alt="Email icon" /> tayyappan986@gmil.com
-                    </p>
+                    <div className="flex items-center justify-center">
+                        <img src="/icon/phone-icon-black.svg" className="h-6 mr-2" alt="Phone icon" />
+                        <p className="text-xl font-black">+91 7010737409</p>
+                    </div>
+                    <div className="flex items-center justify-center">
+                        <img src="/icon/mail-icon-black.svg" className="h-6 mr-2" alt="Email icon" />
+                        <p className="text-xl font-black">tayyappan986@gmail.com</p>
+                    </div>
                 </div>
             </DisclosurePanel>
         </Disclosure>

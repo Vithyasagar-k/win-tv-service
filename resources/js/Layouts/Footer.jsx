@@ -1,3 +1,4 @@
+import { Link } from '@inertiajs/react';
 import React from 'react';
 
 const currentYear = new Date().getFullYear();
@@ -30,7 +31,7 @@ const navigation = {
         </svg>
       ),
     },
-   
+
     {
       name: 'YouTube',
       href: '#',
@@ -56,13 +57,15 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-6 pb-8 lg:px-8 pt-10">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 mb-10">
-            <img
-              alt="Company name"
-              src="/image/logo.png"
-              className="w-32"
-            />
+            <Link href='/'>
+              <img
+                alt="Your Company"
+                src="/image/win-logo.jpg"
+                width={200}
+              />
+            </Link>
             <p className="text-sm leading-6 ">
-              All Brand LED TV Installation in Chennai
+            Experience high-quality entertainment with our reliable and affordable TV service in Chennai.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
@@ -83,10 +86,10 @@ export default function Example() {
             </p>
             <p className="flex items-center text-base">
               <img src="/icon/location.svg" className="h-7 mr-1" alt="Location icon" />
-              No.21 anna nedumpathi
+              No.21, Anna nedumpathi,
               Annai sathya nagar part2
-              West jafferkhanpet
-              Chennai 82.
+              West, Jafferkhanpet,
+              Chennai-600082.
             </p>
           </div>
           <div className='mt-5'>
