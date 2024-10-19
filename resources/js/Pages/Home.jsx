@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Marquee className="text-lg font-extrabold mt-3 bg-green-100" speed={50}>
+      <Marquee className="text-lg font-extrabold mt-3 bg-[#00A99E]" speed={50}>
         Common Issues in LED/LCD TV screen is blank, TV not switched on,
         Automatically TV switched off or on,
         HDMI port issue (depends upon the model we can fix the issue),
@@ -63,18 +63,18 @@ export default function Home() {
       </Marquee>
 
       <section>
-        <div className="bg-white py-5 lg:py-5">
+        <div className="bg-white">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-              <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2">
+              <div className="grid max-w-xl grid-cols-1 gap-10 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2">
                 <div className='my-auto'>
-                  <h2 className="py-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Welcome To<span className='text-violet-800'> Win Service</span></h2>
+                  <h2 className="py-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Welcome To<span className='text-[#3753A4]'> Win Service</span></h2>
                   <p>
                     We fix problems in all kinds of TV such as LED, LCD, Plasma, Ultra HD TV, 4K TV we service all brands of TV. After completing the whole repairing and testing work, we handover the television at a convenient time for our client. Our maintenance and minimum guarantee support are included with every work that we do. Our professional experts forte in serving issues like vertical lines display issue, backlight services, and many more is acknowledgeable when it comes to servicing any LED TVs and LCD TVs of your choice.
                   </p>
                 </div>
                 <div className='flex justify-center items-center'>
-                  <img src="/image/tv-repair-image.jpg" className='w-[80%]' alt="" />
+                  <img src="/image/tv-repair-image.jpg" className='lg:h-[70%] w-full'  alt="" />
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@ export default function Home() {
       </section>
 
       <section>
-        <div className="relative isolate overflow-hidden bg-gray-900 text-white py-10 sm:py-20" data-aos="fade-left">
+        <div className="relative isolate overflow-hidden bg-gray-900 text-white py-10 px-6 lg:px-6" data-aos="fade-left">
           <div className="hidden md:block">
             <img
               alt=""
@@ -99,8 +99,8 @@ export default function Home() {
               className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
             />
           </div>
-          <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row w-full px-5'>
-            <div className='lg:w-[50%] md:w-[50%] w-full flex justify-center'>
+          <div className='flex flex-col sm:flex-col md:flex-row lg:gap-10 justify-center lg:flex-row w-full'>
+            <div className='lg:w-[40%] md:w-[40%] w-full'>
               <div className="mx-auto max-w-7xl ">
                 <div className="mx-auto max-w-2xl lg:mx-0">
                   <h2 className="text-4xl font-bold tracking-tight sm:text-6xl">
@@ -112,8 +112,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='lg:w-[50%] md:w-[50%] sm:w-full flex justify-center lg:mt-0 mt-8'>
-              <form className="lg:w-[70%] md:w-[70%] w-full" onSubmit={submit}>
+            <div className='lg:w-[40%] md:w-[40%] sm:w-full flex justify-center lg:mt-0 mt-8'>
+              <form className="w-full" onSubmit={submit}>
                 <h2 className="text-lg font-medium">Contact Us</h2>
                 <div className="mt-4">
                   <label htmlFor="name" className="block text-sm font-medium">
@@ -199,7 +199,7 @@ export default function Home() {
               </p>
               <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-4">
                 <div className='my-auto'>
-                  <ul className="list-disc pl-6 space-y-2">
+                  <ul className="list-disc space-y-2">
                     <p className="flex text-base text-gray-700"><img src="/icon/tick-mark.svg" className="w-5 mr-1" alt="Tick mark" /> LED TV Repair in Chennai </p>
                     <p className="flex text-base text-gray-700"><img src="/icon/tick-mark.svg" className="w-5 mr-1" alt="Tick mark" /> LCD TV Repair in Chennai </p>
                     <p className="flex text-base text-gray-700"><img src="/icon/tick-mark.svg" className="w-5 mr-1" alt="Tick mark" /> OLED TV Repair in Chennai </p>
@@ -231,26 +231,26 @@ export default function Home() {
       </section>
 
       <section>
-        <div className="bg-blue-950 py-10 lg:py-10" data-aos="fade-right">
+        <div className="bg-[#3753A4] py-8 lg:py-10 px-6" data-aos="fade-right">
           <h1 className='text-white text-4xl font-extrabold text-center mb-2'>All Brand LED TV Installation in Chennai</h1>
           <h1 className='text-white text-2xl font-extrabold text-center'>Call Today For A Free Estimate +91-7010737409</h1>
         </div>
-        <div className="mx-auto max-w-7xl px-6 lg:px-8" data-aos="fade-right">
+        <div className="mx-auto max-w-7xl px-0 lg:px-8" data-aos="fade-right">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-            <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-3">
-              <div className='flex flex-col justify-center items-center py-6 px-6 ' data-aos="fade-right">
+            <div className="lg:mt-10 mt-3 grid max-w-xl grid-cols-1 lg:gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-3">
+              <div className='flex flex-col justify-center items-center py-6 lg:px-0 px-6' data-aos="fade-right">
                 <img src="/image/smart-tv.png" height={200} alt="TV Icon" />
-                <h1 className='text-2xl text-center font-extrabold py-2'>Smart TV Repair</h1>
+                <h1 className='text-2xl text-center text-[#3753A4] font-extrabold py-2'>Smart TV Repair</h1>
                 <p className='text-base font-bold'>We are one of the best tv service centers in Chennai, providing you all types of Smart TV Repair Services in Chennai. We have a certified tv technician who gives you the best-in-class tv repair services.</p>
               </div>
-              <div className='flex flex-col justify-center items-center py-6 px-6' data-aos="fade-right">
+              <div className='flex flex-col justify-center items-center py-6 lg:px-0 px-6' data-aos="fade-right">
                 <img src="/image/led-tv.png" height={200} alt="TV Icon" />
-                <h1 className='text-2xl text-center font-extrabold py-2'>LED TV Repair</h1>
+                <h1 className='text-2xl text-center text-[#3753A4] font-extrabold py-2'>LED TV Repair</h1>
                 <p className='text-base font-bold'>We excel in LCD Repairs Services in Chennai so you can be assured that you are just at the right place to get your job done and we keep our team updated on the latest technology needs</p>
               </div>
-              <div className='flex flex-col justify-center items-center py-6 px-6 ' data-aos="fade-right">
+              <div className='flex flex-col justify-center items-center py-6 lg:px-0 px-6 ' data-aos="fade-right">
                 <img src="/image/lcd-tv.png" height={200} alt="TV Icon" />
-                <h1 className='text-2xl text-center font-extrabold py-2'>LCD TV Repair</h1>
+                <h1 className='text-2xl text-center text-[#3753A4] font-extrabold py-2'>LCD TV Repair</h1>
                 <p className='text-base font-bold'>LCD TV repair services in Chennai, We offer our guaranteed & expert services. we labs are equipped with all kinds of the latest equipment.</p>
               </div>
             </div>
@@ -259,8 +259,8 @@ export default function Home() {
       </section>
 
       <section>
-        <div className="py-10 lg:py-10">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="py-2 lg:py-10">
+          <div className="mx-auto max-w-7xl px-6 lg:px-6">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
               <h2 className="py-4 text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">We are specialized in all TV brands</h2>
               <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-4">

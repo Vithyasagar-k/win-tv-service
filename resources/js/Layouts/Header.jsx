@@ -6,7 +6,7 @@ export default function Header() {
 
     return (
         <Disclosure as="nav" className="bg-white text-[#213262] shadow-xl sticky top-0 z-50">
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-6">
                 <div className="flex h-20 justify-between">
                     <div className="flex">
                         <div className="flex flex-shrink-0 items-center">
