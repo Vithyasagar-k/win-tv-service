@@ -19,7 +19,7 @@ class ContactUsListener
         $data = $event->data;
 
         Mail::to(config('mail.from.address'))->send(new ContactUsMailable($data, true));
-  
-        Mail::to($data->email_address)->send(new ContactUsMailable($data));
+
+        Mail::to($data['email_address'])->send(new ContactUsMailable($data));
     }
 }

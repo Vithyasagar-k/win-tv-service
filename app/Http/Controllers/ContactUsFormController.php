@@ -18,7 +18,7 @@ class ContactUsFormController extends Controller
 
         event(new ContactUsEvent($data));
 
-    return redirect()->back()->with(['message' => 'User registered successfully!']);
+        return redirect()->back()->with('message', 'Your information was gathered successfully');
 
     }
 }

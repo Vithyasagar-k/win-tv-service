@@ -82,7 +82,7 @@ export default function Example() {
               <img src="/icon/phone.svg" className="w-8 mr-1" alt="Phone icon" /> +91-7010737409
             </p>
             <p className="flex items-center text-base">
-              <img src="/icon/email.svg" className="w-5 mr-3" alt="Email icon" /> tayyappan986@gmil.com
+              <img src="/icon/email.svg" className="w-5 mr-3" alt="Email icon" /> tayyappan986@gmail.com
             </p>
             <p className="flex items-center text-base">
               <img src="/icon/location.svg" className="h-7 mr-1" alt="Location icon" />
