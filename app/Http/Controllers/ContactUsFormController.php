@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Events\ContactUsEvent;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Inertia\Inertia;
 
 class ContactUsFormController extends Controller
 {
@@ -18,7 +19,6 @@ class ContactUsFormController extends Controller
 
         event(new ContactUsEvent($data));
 
-        return redirect()->back()->with('message', 'Your information was gathered successfully');
-
+        return Inertia::render('ThankYou');
     }
 }

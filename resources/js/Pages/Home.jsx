@@ -46,7 +46,7 @@ export default function Home() {
             alert.error("reCAPTCHA token is missing.");
             return;
         }
-        const response = await post(route("contact-us-form"), {
+        await post(route("contact-us-form"), {
             ...data,
             recaptchaToken,
         });
